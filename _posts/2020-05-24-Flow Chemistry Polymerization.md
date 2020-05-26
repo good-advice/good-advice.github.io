@@ -1,6 +1,9 @@
 ---
 title: "Flow Chemistry Polymerization"
 excerpt_separator: "<!--more-->"
+sidebar:
+  title: "Notes"
+  nav: sidebar-blog
 categories:
   - Polymer
 tags:

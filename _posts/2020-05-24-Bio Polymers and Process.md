@@ -1,6 +1,9 @@
 ---
 title: "Bio Polymers and Process"
 excerpt_separator: "<!--more-->"
+sidebar:
+  title: "Notes"
+  nav: sidebar-blog
 categories:
   - Polymer
 tags:

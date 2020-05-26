@@ -1,6 +1,9 @@
 ---
-title: "2020-05-24-Foam Injection Molding"
+title: "Foam Injection Molding"
 excerpt_separator: "<!--more-->"
+sidebar:
+  title: "Notes"
+  nav: sidebar-blog
 categories:
   - Polymer
 tags:

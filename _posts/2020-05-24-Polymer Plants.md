@@ -1,6 +1,9 @@
 ---
 title: "Polymer Plants"
 excerpt_separator: "<!--more-->"
+sidebar:
+  title: "Notes"
+  nav: sidebar-blog
 categories:
   - Polymer
 tags:
