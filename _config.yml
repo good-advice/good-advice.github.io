@@ -8,35 +8,55 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Theme Settings
+# theme              : "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark" #"default" ,"aqua", "air", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Good Advice
-subtitle: Scientific Creativity
-logo: "/assets/images/icons8-stabilimento-chimico-3-48.png"
+title : "Good Advice"
+subtitle : "Scientific Creativity"
+logo : "/assets/images/icons8-stabilimento-chimico-3-48.png"
 email: gianmarco.polotti@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: polgia0
-minimal_mistakes_skin: "dark" #"default" ,"aqua", "air", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+repository  : "good-advice/good-advice.github.io"
+words_per_minute: 200
+comments:
+  provider  : "staticman_v2"
+  staticman:
+    branch    : "master"
+    staticman_url: https://good-advice-blog.herokuapp.com/v2/entry/good-advice/good-advice.github.io/master/comments
+reCaptcha:
+   siteKey: 6LcSYAEVAAAAAKIALcmFmi2-9ho5xxpYOkJvugN-
+   secret: NoM/ICVK+NCJlAuf5ZWwqS2TpFepjN5w5Kg0ZUDLt0Sf1/UYvTD/z2ONDDTZ0+UQEDuTN4hhE51Mbqq2lPNjiuDwuFNRAfmQQnowOf/+lk3S/Z+9zVcdAWaYji93vcHWH7+9fsvOht1MDw4TRgDNn6bk/Sx+BjdxD4e+xVCdjr+vRkQNLPzlvnHOngFFav58xp0lX8Fdytjz6K/FPDWWP6XZ0QWjodU/CkxUO5Zv44UCHcnKsCm5DL/r8vO9j7aQfJdDgpccGj5HEsl/mt+kIRh1dFCeTLUN0avka1ia4hdAyB7OB6Pzm4BDvXill9N5Dbrmoz+EDvkC+aaKrhloHR3pVbPIYPn4DLqFPtjHpzZ/WSH3tMOkPKcZaojZr2WyeXeQtKQr70L2hpBvYW1nteFKkZu7W2nrLyRrFNWmRAewVQU7x7wKbB8wlZtH9ugX2eBGoBWA8x8C9JxxI8KSvv9hV3le6qr0w758uj49DSkh9Dj+yG3K5j+Y6I/rNf5MK0XS1bx/qzKHVAxhSG+ESrVzelIVs8GpnIeNqpWVnkdSSK7BCQaQOzIsm6zhMp1wp8sGCbrfeio0ia0hlJYKjABI9LcL31Q/PesVYtLn3HxZVEDbcA3U0rL8aVtJpSGSnj+C5vGIVQMFJ8gdI4aQJbOeKlfu7/DAqni8t0b0l9Q=
+
+# Social Sharing
+twitter_username : username
+github_username : polgia0
 search: true
 
-# Build settings
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+
+# Conversion
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-include:
-  - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -92,6 +112,14 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
 defaults:
   # _posts
   - scope:
@@ -111,30 +139,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-  
-repository  : "good-advice/good-advice.github.io"
-comments:
-  provider  : "staticman_v2"
-  staticman:
-    branch    : "master"
-# The URL for the staticman API bridge endpoint
-# You will want to modify some of the values:
-#  ${github-username}: the username of the account with which you publish your blog
-#  ${blog-repo}: the name of your blog repository in github
-#  master: this the branch out of which your blog is published, often master or gh-pages
-#  ${bridge_app_name}: the name you chose in Heroku for your bridge API
-#  comments: the so-called property, this defines the key in staticman.yml where the configuration is found
-#
-# for me, this line reads:
-# https://staticman-travisdownsio.herokuapp.com/v2/entry/travisdowns/travisdowns.github.io/master/comments
-staticman_url: https://good-advice-blog.herokuapp.com/v2/entry/good-advice/good-advice.github.io/master/comments
-reCaptcha:
-   siteKey: 6LcSYAEVAAAAAKIALcmFmi2-9ho5xxpYOkJvugN-
-   secret: NoM/ICVK+NCJlAuf5ZWwqS2TpFepjN5w5Kg0ZUDLt0Sf1/UYvTD/z2ONDDTZ0+UQEDuTN4hhE51Mbqq2lPNjiuDwuFNRAfmQQnowOf/+lk3S/Z+9zVcdAWaYji93vcHWH7+9fsvOht1MDw4TRgDNn6bk/Sx+BjdxD4e+xVCdjr+vRkQNLPzlvnHOngFFav58xp0lX8Fdytjz6K/FPDWWP6XZ0QWjodU/CkxUO5Zv44UCHcnKsCm5DL/r8vO9j7aQfJdDgpccGj5HEsl/mt+kIRh1dFCeTLUN0avka1ia4hdAyB7OB6Pzm4BDvXill9N5Dbrmoz+EDvkC+aaKrhloHR3pVbPIYPn4DLqFPtjHpzZ/WSH3tMOkPKcZaojZr2WyeXeQtKQr70L2hpBvYW1nteFKkZu7W2nrLyRrFNWmRAewVQU7x7wKbB8wlZtH9ugX2eBGoBWA8x8C9JxxI8KSvv9hV3le6qr0w758uj49DSkh9Dj+yG3K5j+Y6I/rNf5MK0XS1bx/qzKHVAxhSG+ESrVzelIVs8GpnIeNqpWVnkdSSK7BCQaQOzIsm6zhMp1wp8sGCbrfeio0ia0hlJYKjABI9LcL31Q/PesVYtLn3HxZVEDbcA3U0rL8aVtJpSGSnj+C5vGIVQMFJ8gdI4aQJbOeKlfu7/DAqni8t0b0l9Q=
-   #6LcSYAEVAAAAAP_vl7MshoErKIkBzC8BzlUTpfOc
