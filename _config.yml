@@ -134,3 +134,7 @@ comments:
 # for me, this line reads:
 # https://staticman-travisdownsio.herokuapp.com/v2/entry/travisdowns/travisdowns.github.io/master/comments
 staticman_url: https://good-advice-blog.herokuapp.com/v2/entry/good-advice/good-advice.github.io/master/comments
+reCaptcha:
+   siteKey: 6LcSYAEVAAAAAKIALcmFmi2-9ho5xxpYOkJvugN-
+   secret: NoM/ICVK+NCJlAuf5ZWwqS2TpFepjN5w5Kg0ZUDLt0Sf1/UYvTD/z2ONDDTZ0+UQEDuTN4hhE51Mbqq2lPNjiuDwuFNRAfmQQnowOf/+lk3S/Z+9zVcdAWaYji93vcHWH7+9fsvOht1MDw4TRgDNn6bk/Sx+BjdxD4e+xVCdjr+vRkQNLPzlvnHOngFFav58xp0lX8Fdytjz6K/FPDWWP6XZ0QWjodU/CkxUO5Zv44UCHcnKsCm5DL/r8vO9j7aQfJdDgpccGj5HEsl/mt+kIRh1dFCeTLUN0avka1ia4hdAyB7OB6Pzm4BDvXill9N5Dbrmoz+EDvkC+aaKrhloHR3pVbPIYPn4DLqFPtjHpzZ/WSH3tMOkPKcZaojZr2WyeXeQtKQr70L2hpBvYW1nteFKkZu7W2nrLyRrFNWmRAewVQU7x7wKbB8wlZtH9ugX2eBGoBWA8x8C9JxxI8KSvv9hV3le6qr0w758uj49DSkh9Dj+yG3K5j+Y6I/rNf5MK0XS1bx/qzKHVAxhSG+ESrVzelIVs8GpnIeNqpWVnkdSSK7BCQaQOzIsm6zhMp1wp8sGCbrfeio0ia0hlJYKjABI9LcL31Q/PesVYtLn3HxZVEDbcA3U0rL8aVtJpSGSnj+C5vGIVQMFJ8gdI4aQJbOeKlfu7/DAqni8t0b0l9Q=
+   #6LcSYAEVAAAAAP_vl7MshoErKIkBzC8BzlUTpfOc
