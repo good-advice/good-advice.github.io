@@ -10,7 +10,7 @@ tags:
   - Patent
 ---
 ![Alt text](/assets/images/joel-filipe-KZa4fREZoKk-unsplash.jpg)
-
+Photo credit: [**Joel Filipe**](https://unsplash.com)
 
 ## **Polyamides in plug flow reactor**
 Although continuous process for polyamides production is known, many of the existing processes relate to batch operation. In a batch process, a water solution of diacids and diamine is polymerized in a cooled vessel, requiring large volumes of heat transfer fluid in the jacket to remove the reaction enthalpy. The rising polymer melt viscosity complicates water bubble formation, migration to the melt surface and steam disengagement which contributes to excessive foaming. In case of inefficient heat removal undesired polymer branching (gelling) is formed. [1] discovers that by concentrating the aqueous monomer solution by evaporation and continuously flowing it on the shell side of shell-and-tube reactor surprisingly provides a significant drop in the overall heat flux. This use of a plug flow reactor advantageously provides an overall heat efficiency, high conversion and low level of skin temperatures, foaming and branching. The reactor may be operated at a temperature from 200 to 300 C, pressure from 13.5 to 18 bar, conversion greater than 85% and residence time from 50 to 60 minutes. The patent also highlights the possibility for retrofitting an existing process. In this case, the existing reactor is in series between the evaporator and the new shell-tube reactor.

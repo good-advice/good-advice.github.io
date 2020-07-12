@@ -10,6 +10,7 @@ tags:
   - Patent
 ---
 ![Alt text](/assets/images/nick-fewings-nbwmNehHvis-unsplash.jpg)
+Photo credit: [**Nick Fewings**](https://unsplash.com)
 
 ## **Core-shell re-dispersible powder for construction and optics**
 Re-dispersible polymer powders are widely used in cement-based waterproofing systems, floor screeds, tile adhesives, etc. and provide flexibility and a controlled rheological profile. They are made compatible to the matrix by spray drying on the polymer latex some anti-caking additives (colloids and silica). These additives prevent the irreversible aggregation during storage and promote the redispersion in the final application. [1] proposes a brilliant solution with a core-shell particle having a polymer core and a continuous silica shell. The key steps of the process are:

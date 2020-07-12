@@ -10,7 +10,7 @@ tags:
   - Patent
 ---
 ![Alt text](/assets/images/jason-leung-UMncYEfO9-U-unsplash.jpg)
-
+Photo credit: [**Jason Leung**](https://unsplash.com)
 
 ## **Cold-sintered ceramic polymer composite (CSP)**
 [1] releases a quite broad methodology (composition and process) to produce cold sintered ceramic polymer composites. The cold process (less than 200 C) and a wide variety of monomers permit the incorporation of diverse inorganic compounds in a polymeric matrix. The actual sintering process involves the application of high temperatures, typically above 1000 C, to densify and to enhance properties of materials (strength, electrical/thermal conductivity, translucency). Although some advances where made reducing the production temperature (between 450 to 750 C), the author claims incredibly low temperatures. The polymer composite is made by:

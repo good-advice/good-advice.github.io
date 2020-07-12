@@ -9,7 +9,8 @@ categories:
 tags:
   - Patent
 ---
-![Alt text](/assets/images/manufacturing-plastics-extrusion-presses-figure-1.jpg)
+![Alt text](/assets/images/manufacturing-plastics-extrusion-presses.png)
+Photo credit: [**Unknown**]
 
 ## **Polymeric polyphosphate additives in extrusion**
 When the screw speed is increased, defects occur on the surface of the extruded material known as “orange peel” or “sharkskin”. Processing aids are used to improve the melt processing of polyolefins by reducing melt fracture but it is necessary that they do not lead to a deterioration in the physical properties of the extruded resin (mechanical properties, yellowing index, melt flow index). [1] finds a series of polymeric phosphites that avoid melt fracture and do not cause issues. Polyphosphites are achieved by a nucleophilic substitution in aromatic phosphite ethers (e.g. triphenyl phosphite) with polyglycols and alcohols (e.g. polypropylene glycols) [2]. Additives can be applied in many target applications such as: blow film, pipe, windows and door frame in limited amount (0.01-2 %). Comparatives examples show superior performance compared with common monomeric and oligomeric phosphites.
